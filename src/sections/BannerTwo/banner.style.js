@@ -73,19 +73,10 @@ const BannerWrapper = styled.div`
       .btn-fill {
         transition: all 0.3s ease-in;
         background: rgb(37, 42, 213);
-        background: linear-gradient(
-          93deg,
-          rgba(37, 42, 213, 1) 0%,
-          rgba(122, 49, 222, 1) 52%,
-          rgba(196, 56, 231, 1) 100%
-        );
+        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+        background-size: 400%;
         &:hover{
-          background: linear-gradient(
-          93deg,
-          rgba(196, 56, 231, 1) 0%,
-          rgba(122, 49, 222, 1) 52%,
-          rgba(37, 42, 213, 1) 100%
-        );
+          animation: animate 8s linear infinite;
         }
       }
     }
@@ -126,6 +117,15 @@ const BannerWrapper = styled.div`
         content: "";
         background: #b096df;
       }
+    }
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
     }
   }
 
