@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const NavigationWrap =  styled.header`
+const NavigationWrap = styled.header`
     background: ${props => props.theme.NavBG};
     position: fixed;
     width: 100%;
@@ -23,18 +23,9 @@ const NavigationWrap =  styled.header`
   .nav__button{
     width: 170px;
     height: 60px;
-    background: ${props => props.theme.white};
     border-radius: 5px;
     font-size: 18px;
-    color: ${props => props.theme.linkColor};
     transition: all 0.3s ease-in;
-    &:hover,
-    &:focus{
-      outline: none;
-      border: none;
-      background: linear-gradient( 93deg,rgba(196,56,231,1) 0%,rgba(122,49,222,1) 52%,rgba(37,42,213,1) 100% );
-      color: ${props => props.theme.white};
-    }
   }
   /*Drop down style*/ 
   .dropdown{

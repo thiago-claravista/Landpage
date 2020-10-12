@@ -81,14 +81,14 @@ const BannerWrapper = styled.div`
         &:hover{
           background: #ffffff;
           color: ${(props) =>
-          props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
+    props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
         } 
       }
 
       .btn-fill {
         background: #ffffff;
         color: ${(props) =>
-        props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
+    props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
       }
 
       a + a {

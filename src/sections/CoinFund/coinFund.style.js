@@ -27,7 +27,7 @@ const CoinFundWrapper = styled.div`
     padding: 18px 35px;
     background: #ffffff;
     color: ${(props) =>
-      props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
+    props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
   }
 
   .progressbar-wrapper {

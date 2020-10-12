@@ -69,16 +69,6 @@ const BannerWrapper = styled.div`
           margin-right: 10px;
         }
       }
-
-      .btn-fill {
-        transition: all 0.3s ease-in;
-        background: rgb(37, 42, 213);
-        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-        background-size: 400%;
-        &:hover{
-          animation: animate 8s linear infinite;
-        }
-      }
     }
 
     .coin-info {
@@ -117,15 +107,6 @@ const BannerWrapper = styled.div`
         content: "";
         background: #b096df;
       }
-    }
-  }
-
-  @keyframes animate {
-    0% {
-      background-position: 0%;
-    }
-    100% {
-      background-position: 400%;
     }
   }
 

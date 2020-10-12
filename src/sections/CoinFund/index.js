@@ -18,7 +18,7 @@ import {
 import CoinFundWrapper from "./coinFund.style";
 
 const CoinFund = () => {
-  const settings = { 
+  const settings = {
     count: 5432560,
     showTitle: true,
     size: 60,
@@ -53,7 +53,7 @@ const CoinFund = () => {
 
               <Box className="btn-wrapper">
                 <Link href="#">
-                  <a className="btn btn-fill">Buy Token</a>
+                  <a className="btn btn-rgb btn-fill">Buy Token</a>
                 </Link>
               </Box>
             </Box>

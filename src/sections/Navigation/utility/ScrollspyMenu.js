@@ -29,18 +29,18 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
           {menu.subItems !== undefined && (
             <ul key={index} className="dropdown">
               {menu.subItems.map((subItem, i) => (
-                  <li key={i}>
-                    <Link href={subItem.path}>
-                      <a>{subItem.name}</a>
-                    </Link>
-                  </li>
+                <li key={i}>
+                  <Link href={subItem.path}>
+                    <a>{subItem.name}</a>
+                  </Link>
+                </li>
               ))}
             </ul>
           )}
         </li>
       ))}
       <li>
-        <button className="nav__button">
+        <button className="nav__button btn-rgb">
           Get in Touch
         </button>
       </li>
