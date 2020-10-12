@@ -35,10 +35,10 @@ const Home = () => {
       <Service />
       <CoinFund />
       <About />
-      <Awards />
+      {/* <Awards /> */}
       <UserMap />
       <Wallet />
-      <Statistics />
+     {/*  <Statistics /> */}
        <Faq />
       <Stack />
       <Footer />

@@ -39,8 +39,8 @@ const Home = () => {
       <Awards />
       <UserMap />
       <Wallet />
-      <Statistics />
-       <Faq />
+      <Statistics /> 
+      <Faq />
       <Stack />
       <Footer />
     </ThemeProvider>

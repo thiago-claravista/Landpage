@@ -41,24 +41,18 @@ const CoinFund = () => {
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                    Powering Data for the new equity blockchain.
+                    Be a Supporter 
                   </Heading>
                 </SectionBackground>
                 <Text>
-                  The highly the not having with lively. Our up with ran go her
-                  it gloomy the back, though however projected not for six with
-                  then, trusted as concepts belt.
+                An Entire ecosystem where you, as a supporter, will be able to experience the multiple benefits of the cryptocurrency market and make profits with it as we grow!
                 </Text>
               </SectionTitle>
 
-              <Box className="btn-wrapper">
-                <Link href="#">
-                  <a className="btn btn-rgb btn-fill">Buy Token</a>
-                </Link>
-              </Box>
+              
             </Box>
           </Col>
-          <Col className="lg-6 md-12 countdown-wrap">
+          {/* <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
               <Text> Last moment to grab the token </Text>
               <CountdownTimer {...settings} />
@@ -88,7 +82,7 @@ const CoinFund = () => {
                 <FaCcDiscover />{" "}
               </Text>
             </Box>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </CoinFundWrapper>

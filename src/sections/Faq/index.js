@@ -37,10 +37,6 @@ const Faq = () => {
               <SectionBackground>
                 <Heading>Frequently asked questions</Heading>
               </SectionBackground>
-              <Text>
-                Attention in when in just something bread not hundred well, muff
-                value emerge on the known officers.
-              </Text>
             </SectionTitle>
           </Col>
         </Row>

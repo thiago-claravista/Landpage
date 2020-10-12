@@ -18,11 +18,9 @@ const UserMap = () => {
           <Row>
             <Col className="sm-12 md-10 offset-md-1">
               <SectionTitle className="text-center">
-                <Heading>More than 3 Bilion worldwide use</Heading>
+                <Heading>Available Worldwide</Heading>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates.
+                Onne Ecosystem will be available worldwide, and our products will be available according to each country jurisdiction
                 </Text>
               </SectionTitle>
             </Col>

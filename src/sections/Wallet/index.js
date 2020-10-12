@@ -13,6 +13,7 @@ import SectionParticle from "assets/images/particles/crypto-managment-wallet.svg
 
 import data from "assets/data/wallet";
 import WalletSectionWrapper from "./wallet.style";
+import AboutSectionWrapper from '../About/about.style';
 
 const Wallet = () => {
   return (
@@ -33,26 +34,22 @@ const Wallet = () => {
             <Box className="wallet-left-content">
               <SectionTitle>
                 <SectionBackground>
-                  <Heading> Crypto management wallet </Heading>
+                  <Heading> With our App</Heading>
                 </SectionBackground>
-                <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers. A parameters phase
-                  orthographic the can differentiates far catch he warned a they
-                  but country. Times, cache in and what but the that go
-                  facilitate far were house.
+                <Text style={{fontSize: '20px'}}>
+                  You will be able to manage all your funds in a secure and reliable way
                 </Text>
               </SectionTitle>
-
-              <Box className="wallet-info">
-                {data.wallet.map((item, index) => (
-                  <Box className="counter-item" key={index}>
-                    <Counter end={item.count} suffix={item.suffixText} />
-                    <Text>{item.body}</Text>
-                  </Box>
-                ))}
-              </Box>
             </Box>
+            <AboutSectionWrapper id="about">
+              <Box className="about-list">
+                  <Text as="span">Deposit</Text>
+                  <Text as="span">Make payments</Text>
+                  <Text as="span">Load your Card</Text>
+                  <Text as="span">Transaction History</Text>
+              </Box>
+              <Text as="span">Everything just one swipe away</Text>
+            </AboutSectionWrapper>
           </Col>
         </Row>
       </Container>

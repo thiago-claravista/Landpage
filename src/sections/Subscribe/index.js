@@ -20,11 +20,7 @@ const Subscribe = () => {
               <Row>
                 <Col className="lg-6 offset-lg-3 xs-12">
                   <SectionTitle>
-                    <Heading> Don’t miss out, Stay updated </Heading>
-                    <Text>
-                      Sign up for updates and market news. Subscribe to our
-                      newsletter and receive update about ICOs and crypto tips.
-                    </Text>
+                    <Heading> Want to know more? subscribe to our newsletter </Heading>
                   </SectionTitle>
                 </Col>
               </Row>

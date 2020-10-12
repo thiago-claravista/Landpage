@@ -7,23 +7,19 @@ export default {
   services: [
     {
       icon: serviceIcon1,
-      title: "ICO Finance",
-      body: "The highly the not having with lively Our up with.",
+      title: "Double ou Triple your crypts",
     },
     {
       icon: serviceIcon2,
-      title: "Blockchain",
-      body: "The highly the not having with lively Our up with.",
+      title: "Daily Withdraw",
     },
     {
       icon: serviceIcon3,
-      title: "Market News",
-      body: "The highly the not having with lively Our up with.",
+      title: "Multiple Binary Matrixes",
     },
     {
       icon: serviceIcon4,
-      title: "Exchange Offer",
-      body: "The highly the not having with lively Our up with.",
+      title: "Affiliate Program",
     },
   ],
 };

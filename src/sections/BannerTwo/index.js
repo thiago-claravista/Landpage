@@ -239,33 +239,34 @@ const BannerTwo = () => {
           <Col className="lg-7 md-10 xs-12">
             <Box className="banner-content">
               <Heading>
-                Access the <br />
-                power of blockchain
+                Welcome to ONNE.VIP
               </Heading>
+              
               <Text as="span" className="description">
-                The highly the not having with lively. Our up with ran go her it
-                gloomy the back, though however projected not for six with then,
-                trusted as concepts belt.
+                <>
+                 An amazing opportunity for multiplying <br></br> your to multiply your cryptos through <br></br> our amazing system!
+                </>
               </Text>
+            
 
               <Box className="coin-info">
                 <Box>
                   <Image src={keyIcon} alt="crypto banner icon" />
-                  <Text>Access</Text>
+                  <Text>Secure</Text>
                 </Box>
                 <Box>
                   <Image src={watchIcon} alt="crypto banner icon" />
-                  <Text>Speed</Text>
+                  <Text>Fast</Text>
                 </Box>
                 <Box>
                   <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Certainty</Text>
+                  <Text>Reliable</Text>
                 </Box>
               </Box>
 
               <Box className="banner-btn">
                 <Link href="#">
-                  <a className="btn btn-rgb"> <FaGithub /> Download Crypto</a>
+                  <a className="btn btn-rgb">  Register Now</a>
                 </Link>
               </Box>
             </Box>

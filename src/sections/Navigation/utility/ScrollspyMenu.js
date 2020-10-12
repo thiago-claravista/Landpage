@@ -41,7 +41,7 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
       ))}
       <li>
         <button className="nav__button btn-rgb">
-          Get in Touch
+          Join Now
         </button>
       </li>
     </ul>

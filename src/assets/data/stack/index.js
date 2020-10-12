@@ -1,35 +1,23 @@
-import githubLogo from "assets/images/languages/github.png";
-import javascriptLogo from "assets/images/languages/javascript.png";
-import pythonLogo from "assets/images/languages/python.png";
-import reactLogo from "assets/images/languages/react.png";
-import rubyLogo from "assets/images/languages/ruby.png";
+import bitcoin from "assets/images/BitCoin/Bitcoin.svg";
+import bitcoinCash from "assets/images/BitCoin/bitcoin-cash-circle.svg";
+import bitcoinGold from "assets/images/BitCoin/bitcoin-gold.svg";
 
 export default {
   stack: [
     {
-      name: "gihub",
+      name: "Bitcoin",
       url: "#",
-      imageSrc: githubLogo,
+      imageSrc: bitcoin,
     },
     {
-      name: "javascript",
+      name: "BitcoinCash",
       url: "#",
-      imageSrc: javascriptLogo,
+      imageSrc: bitcoinCash,
     },
     {
-      name: "python",
+      name: "Bitcoin",
       url: "#",
-      imageSrc: pythonLogo,
-    },
-    {
-      name: "reactjs",
-      url: "#",
-      imageSrc: reactLogo,
-    },
-    {
-      name: "ruby",
-      url: "#",
-      imageSrc: rubyLogo,
+      imageSrc: bitcoinGold,
     },
   ],
 };

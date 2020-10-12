@@ -10,7 +10,7 @@ const StackSectionWrapper = styled.div`
     .language-image {
       display: flex;
       margin-top: 45px;
-      justify-content: space-between;
+      justify-content: space-evenly;
       a {
         &:hover {
           opacity: 0.7;

@@ -35,22 +35,21 @@ const About = () => {
                             <SectionTitle>
                                 <SectionBackground>
                                     <Heading as="h1">
-                                        Protecting investor with high security
-                                        </Heading>
+                                        All In ONNE Place!
+                                    </Heading>
                                 </SectionBackground>
 
-                                <Text>Intended village pay like…. Discipline would, interesting that I off easier bathroom covered project the away, man you their by a temple prisoners. Have as her of your of in many, searched had class. Had with one entire children away. Problem got boss.</Text>
+                                <Text>The ONNE ecosystem is created to incorporate all products and benefits in one single secure environment, making possible and simple for you to manage everything from the palm of your hands</Text>
                             </SectionTitle>
 
                             <Box className="about-list">
-                                <Text as="span">75% Distributed to Community.</Text>
-                                <Text as="span">13% Reserved Funding.</Text>
-                                <Text as="span">9% Founders and Team Management.</Text>
+                                <Text as="span">Innovative products</Text>
+                                <Text as="span">Affiliate Programs</Text>
+                                <Text as="span">Multiple ways of earning </Text>
                             </Box>
 
-                            <Box className="about-btn-wrapper">
-                                <Link href="#" ><a className="btn btn-rgb"> <FaGooglePlay /> Google Play</a></Link>
-                                <Link href="#"><a className="btn"><FaApple /> Apple Store</a></Link>
+                            <Box className="about-btn-wrapper" style={{marginTop: "50px"}}>
+                                <Text as="span">Coming soon (<FaApple /> Apple |&nbsp; <FaGooglePlay /> Android)</Text>
                             </Box>
                         </Box>
                     </Col>

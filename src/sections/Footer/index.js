@@ -45,86 +45,17 @@ const Footer = () => {
                 </Box>
               </Box>
             </Col>
-            <Col className="lg-3 sm-6">
-              <Box className="footer-widgets">
-                <Heading as="h2">Service</Heading>
-                <List>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Web Design</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Web Development</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>UXUI Design</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Graphics Design</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Software development</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Content</a>
-                    </Link>
-                  </ListItem>
-                </List>
-              </Box>
-            </Col>
+           
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets">
                 <Heading as="h2">About Us</Heading>
                 <List>
                   <ListItem>
-                    <Link href="#">
+                    <Link href="#ourteam">
                       <a>About Us</a>
                     </Link>
                   </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Work Portfolio</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Team</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Plan & Pricing</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Content</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Company News</a>
-                    </Link>
-                  </ListItem>
                 </List>
-              </Box>
-            </Col>
-            <Col className="lg-3 sm-6">
-              <Box className="footer-widgets address">
-                <Heading as="h2">Our Address</Heading>
-                <Text>
-                  1370 Roosevelt Street, Little York City, New Jersey 08834
-                </Text>
               </Box>
             </Col>
           </Row>
