@@ -10,7 +10,7 @@ import Image from "reusecore/Image";
 import { List, ListItem } from "reusecore/List";
 import Subscribe from "sections/Subscribe";
 
-import cryptikFooterLogo from "assets/images/logo-white.png";
+import cryptikFooterLogo from "assets/images/Logo ONNE.svg";
 import data from "assets/data/footer";
 import FooterWrapper from "./footer.style";
 
@@ -29,7 +29,7 @@ const Footer = () => {
                   muff value emerge on the known officers.
                 </Text>
 
-                <Box className="contact-info">
+                {/* <Box className="contact-info">
                   <Link href="#">
                     <a>
                       {" "}
@@ -42,7 +42,7 @@ const Footer = () => {
                       <FaEnvelope /> +88 12345 697858{" "}
                     </a>
                   </Link>
-                </Box>
+                </Box> */}
               </Box>
             </Col>
            
@@ -70,13 +70,7 @@ const Footer = () => {
               </Box>
 
               <Box className="copyright-text">
-                <Text>&copy; Cryptik | All right rserved 2020</Text>
-                <Text as="span">
-                  Designed By{" "}
-                  <Link href="#">
-                    <a>Devscorn</a>
-                  </Link>
-                </Text>
+                <Text>&copy; ONNE | All right reserved 2020</Text>
               </Box>
             </Col>
           </Row>

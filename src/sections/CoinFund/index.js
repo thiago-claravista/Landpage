@@ -4,8 +4,10 @@ import CountdownTimer from "react-component-countdown-timer";
 
 import { Container, Row, Col } from "reusecore/Layout";
 import Box from "reusecore/Box";
+import Image from "reusecore/Image";
 import Heading from "reusecore/Heading";
 import Text from "reusecore/Text";
+import cryptikFooterLogo from "assets/images/Logo ONNE.svg";
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
 
 import {
@@ -52,37 +54,11 @@ const CoinFund = () => {
               
             </Box>
           </Col>
-          {/* <Col className="lg-6 md-12 countdown-wrap">
+           <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
-              <Text> Last moment to grab the token </Text>
-              <CountdownTimer {...settings} />
+              <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
             </Box>
-            <Box className="progressbar-wrapper">
-              <Box className="progressbar">
-                <Text as="span">$5,097</Text>
-              </Box>
-              <Text as="span">$11,931</Text>
-            </Box>
-
-            <Box className="payment-getway">
-              <Text as="span">
-                {" "}
-                <FaBitcoin />{" "}
-              </Text>
-              <Text as="span">
-                {" "}
-                <FaCcMastercard />{" "}
-              </Text>
-              <Text as="span">
-                {" "}
-                <FaCcVisa />{" "}
-              </Text>
-              <Text as="span">
-                {" "}
-                <FaCcDiscover />{" "}
-              </Text>
-            </Box>
-          </Col> */}
+          </Col> 
         </Row>
       </Container>
     </CoinFundWrapper>
