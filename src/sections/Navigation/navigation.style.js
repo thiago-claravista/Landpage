@@ -4,7 +4,7 @@ const NavigationWrap = styled.header`
     background: ${props => props.theme.NavBG};
     position: fixed;
     width: 100%;
-    z-index: 9999;
+    z-index: 99;
     top: 0;
     transition: all 0.3s ease 0s;
     border-bottom: 1px solid transparent;

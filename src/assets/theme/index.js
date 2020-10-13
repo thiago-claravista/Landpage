@@ -32,6 +32,9 @@ body,html {
     margin: 0px;
 
 }
+html.loading body {
+  overflow: hidden;
+}
 body {
   font-size: 16px;
   line-height: 28px;
@@ -103,6 +106,14 @@ button, .btn{
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.presentation-video {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
 .btn-rgb {
