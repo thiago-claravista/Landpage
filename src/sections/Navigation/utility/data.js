@@ -5,18 +5,8 @@ const Data = {
       path: "__next",
     },
     {
-      name: "Service",
-      path: "service",
-      offset: "-120"
-    },
-    {
-      name: "Token",
+      name: "Support Us",
       path: "token",
-      offset: "-100"
-    },
-    {
-      name: "About",
-      path: "about",
       offset: "-100"
     },
     {

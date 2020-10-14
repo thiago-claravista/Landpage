@@ -22,6 +22,20 @@ const StackSectionWrapper = styled.div`
     }
   }
 
+  .img-ceo{
+    gap: 100px;
+  }
+
+  .img-ceo > div{
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .img-ceo > div p {
+    font-size: 27px;
+    text-align: center;
+  }
+
   @media only screen and (max-width: 568px) {
     .box.language-image a img{
       width: 85%;
@@ -36,6 +50,10 @@ const StackSectionWrapper = styled.div`
     .heading{
       font-size: 33px;
       line-height: 40px;
+    }
+    .box.language-image{
+      flex-wrap: wrap;
+      gap: 30px !important;
     }
   }
   @media only screen and (max-width:375px) {
