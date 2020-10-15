@@ -22,6 +22,12 @@ const StackSectionWrapper = styled.div`
     }
   }
 
+  .numberUser{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
   .img-ceo{
     gap: 100px;
   }

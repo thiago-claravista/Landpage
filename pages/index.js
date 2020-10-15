@@ -8,6 +8,7 @@ import Service from "sections/Service";
 import CoinFund from "sections/CoinFund";
 import About from "sections/About";
 import UserMap from "sections/UserMap";
+import UserCount from "sections/UserCount";
 import Wallet from "sections/Wallet";
 import Stack from "sections/Stack";
 import Faq from "sections/Faq";
@@ -84,6 +85,7 @@ const Home = () => {
             <CoinFund />
             <About />
             <UserMap />
+            <UserCount />
             <Wallet />
             <Faq />
             <Stack />
