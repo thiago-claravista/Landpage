@@ -137,6 +137,7 @@ button, .btn{
 }
 
 .btn-rgb:hover{
+  color: #fff !important;
   animation: animate 8s linear infinite;
 }
 

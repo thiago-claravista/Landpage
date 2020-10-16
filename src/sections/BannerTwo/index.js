@@ -241,13 +241,13 @@ const BannerTwo = () => {
               <Heading>
                 Welcome to ONNE.VIP
               </Heading>
-              
+
               <Text as="span" className="description">
                 <>
-                 An amazing opportunity for multiplying <br></br> your to multiply your cryptos through <br></br> our amazing system!
+                  An amazing opportunity for multiplying <br></br> your to multiply your cryptos through <br></br> our amazing system!
                 </>
               </Text>
-            
+
 
               <Box className="coin-info">
                 <Box>
@@ -265,8 +265,8 @@ const BannerTwo = () => {
               </Box>
 
               <Box className="banner-btn">
-                <Link href="#">
-                  <a className="btn btn-rgb">  Register Now</a>
+                <Link href="//i.onne.vip/register.html">
+                  <a className="btn btn-rgb">Register Now</a>
                 </Link>
               </Box>
             </Box>

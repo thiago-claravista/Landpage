@@ -21,11 +21,14 @@ const NavigationWrap = styled.header`
     font-size: 24px;
   }
   .nav__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
     width: 170px;
     height: 60px;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: all 0.3s ease-in;
   }
   /*Drop down style*/ 
   .dropdown{
@@ -83,7 +86,7 @@ const NavigationWrap = styled.header`
           }
         }
       
-      a, .nav-active{
+      a:not([href]), .nav-active{
         position: relative;
         color: #fff;
         font-size: 15px;
@@ -98,11 +101,10 @@ const NavigationWrap = styled.header`
           width: 20px;
           height: 1px;
           opacity: 0;
-          background: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#1F2AD5'};
+          background: #fff;
           transition: 450ms all;
         }
         &:hover{
-          color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#1F2AD5'};
           &:before{
             opacity: 1;
           }

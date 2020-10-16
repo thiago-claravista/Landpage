@@ -40,9 +40,9 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
         </li>
       ))}
       <li>
-        <button className="nav__button btn-rgb">
-          Join Now
-        </button>
+        <Link href="//i.onne.vip/login.html">
+          <a className="nav__button btn btn-rgb">Join Now</a>
+        </Link>
       </li>
     </ul>
 
