@@ -80,15 +80,15 @@ const SubscribeWrapper = styled.div`
       .subscribe-box-bg {
         padding: 50px 30px;
       }
-      .form-box {
-        text-align: center;
-        margin-top: 35px;
-        button {
-          position: relative;
-          right: 0;
-          top: 0;
-          margin: 30px auto 0 auto;
-        }
+    }
+    .form-box {
+      text-align: center;
+      margin-top: 35px;
+      button {
+        position: relative;
+        right: revert;
+        top: revert;
+        margin: 30px auto 0 auto;
       }
     }
   }

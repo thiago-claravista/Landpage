@@ -7,6 +7,8 @@ import Box from "reusecore/Box";
 import Heading from "reusecore/Heading";
 import Text from "reusecore/Text";
 import Image from "reusecore/Image";
+import Foto1 from "assets/images/IMG_8278.png";
+import Foto2 from "assets/images/IMG_8279.png";
 
 import data from "assets/data/stack";
 import StackSectionWrapper from "./stack.style";
@@ -54,7 +56,20 @@ const Stack = () => {
             </Col>
           </Row>
           <Row>
-            
+            <Col className="md-8 offset-md-2 xs-12">
+              <Box className="language-image img-ceo">
+                <Box className="language-image" >
+                  <Image src={Foto2} alt="cryptik footer logo" />
+                  <Text style={{fontWeight: 'bold', marginBottom: '-1rem'}}>Jonatas de Paula</Text>
+                  <Text >CEO</Text>
+                </Box>
+                <Box className="language-image" style={{gap: '20px', flexDirection: 'column'}}>
+                  <Image src={Foto1} alt="cryptik footer logo" />
+                  <Text style={{fontWeight: 'bold', marginBottom: '-1rem'}}>João Valentim</Text>
+                  <Text>COO</Text>
+                </Box>
+              </Box>
+            </Col>
           </Row>
         </Container>
       </Box>
