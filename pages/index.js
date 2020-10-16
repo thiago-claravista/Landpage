@@ -28,11 +28,16 @@ const Home = () => {
   const wasReproduced = () =>
     sessionStorage.getItem('showedPresentation') !== 'true';
 
-  const handleEnded = () => {
+  const handleAnimationEnd = () => {
     videoPlayer.current?.wrapper.remove();
     document.documentElement.classList.remove('loading');
     sessionStorage.setItem('showedPresentation', true);
     setLoad(true);
+  }
+
+  const handleEnded = () => {
+    videoPlayer.current?.wrapper.classList.add('ending');
+    videoPlayer.current?.wrapper.addEventListener('animationend', handleAnimationEnd);
   }
 
   const getDimensions = () => ({
