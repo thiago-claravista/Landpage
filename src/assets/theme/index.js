@@ -28,7 +28,6 @@ html{
 }
 
 body,html {
-    
     margin: 0px;
 
 }

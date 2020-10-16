@@ -23,7 +23,6 @@ const Service = () => {
                     <Box className="service-item text-center">
                       <Image src={service.icon} alt="cryptik service icon" />
                       <Heading as="h3">{service.title}</Heading>
-                      <Text>{service.body}</Text>
                     </Box>
                   </Col>
                 ))}

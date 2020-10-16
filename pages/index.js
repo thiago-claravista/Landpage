@@ -51,6 +51,7 @@ const Home = () => {
     setShowPresentation(wasReproduced());
     setDimensions(getDimensions());
     window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, [])
 
   return (
