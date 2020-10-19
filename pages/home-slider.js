@@ -7,10 +7,8 @@ import BannerSlider from 'sections/BannerSlider';
 import Service from "sections/Service";
 import CoinFund from "sections/CoinFund";
 import About from "sections/About";
-import Awards from "sections/Awards";
 import UserMap from "sections/UserMap";
 import Wallet from "sections/Wallet";
-import Statistics from "sections/Statistics";
 import Stack from "sections/Stack"; 
 import Faq from "sections/Faq";
 import Footer from "sections/Footer";
@@ -36,10 +34,8 @@ const Home = () => {
       <Service />
       <CoinFund />
       <About />
-      <Awards />
       <UserMap />
       <Wallet />
-      <Statistics /> 
       <Faq />
       <Stack />
       <Footer />
