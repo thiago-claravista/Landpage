@@ -25,27 +25,11 @@ const Footer = () => {
               <Box className="footer-widgets company-desc">
                 <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers.
+                  Onne is a crypto asset management agency from ONNE Group. A ecosystem focused on the 5.0 industry allowing people to use their crypto in a daily basis.
                 </Text>
-
-                {/* <Box className="contact-info">
-                  <Link href="#">
-                    <a>
-                      {" "}
-                      <FaPhoneAlt /> contact@cryptik.com{" "}
-                    </a>
-                  </Link>
-                  <Link href="#">
-                    <a>
-                      {" "}
-                      <FaEnvelope /> +88 12345 697858{" "}
-                    </a>
-                  </Link>
-                </Box> */}
               </Box>
             </Col>
-           
+
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets">
                 <Heading as="h2">About Us</Heading>
