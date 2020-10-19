@@ -4,14 +4,14 @@ import FavIcon from "assets/images/fav-icon.png";
 
 const Main = ({
   children,
-  title = "Cryptik | Next gentrations react next landing page",
+  title = "Onne",
 }) => {
   return (
     <React.Fragment>
       <Head>
         <title>{title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="Description" content="React next landing page" />
+        <meta name="Description" content="Multiple your cryptocurrencies with ONNE! The first Multibinaries crypto asset agency! Earn up to 300% variable 0-3% Daily ROI!" />
         <meta name="theme-color" content="#ec5555" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
         <link

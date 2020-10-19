@@ -63,8 +63,8 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Cryptik | Next gentrations react next landing page</title>
-        <meta name="Description" content="React next landing page" />
+        <title>Onne</title>
+        <meta name="Description" content="Multiple your cryptocurrencies with ONNE! The first Multibinaries crypto asset agency! Earn up to 300% variable 0-3% Daily ROI!" />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
       </Head>
