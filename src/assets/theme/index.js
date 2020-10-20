@@ -49,7 +49,6 @@ html.loading body {
 }
 body {
   font-size: 16px;
-  line-height: 28px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif;

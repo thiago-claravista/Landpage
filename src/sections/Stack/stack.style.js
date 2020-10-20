@@ -9,14 +9,28 @@ const StackSectionWrapper = styled.div`
     }
     .language-image {
       display: flex;
-      margin-top: 45px;
       justify-content: space-evenly;
+      margin-top: 45px;
       a {
         &:hover {
           opacity: 0.7;
         }
         img {
           width: auto;
+        }
+      }
+      .team-member-name {
+        font-weight: bold;
+        margin-bottom: -1rem;
+      }
+      .qualifications {
+        ul {
+          padding: 0 30px;
+          margin: 0;
+          li {
+            font-size: 18px;
+            line-height: 28px
+          }
         }
       }
     }

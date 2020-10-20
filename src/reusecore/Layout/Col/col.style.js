@@ -1,4 +1,4 @@
-import styled from "styled-components"; 
+import styled from "styled-components";
 
 const ColWrapper = styled.div`
   position: relative;  
@@ -74,7 +74,7 @@ const ColWrapper = styled.div`
 }
 
 &.offset-2 {
-  margin-left: 16.666667%;
+  margin: auto;
 }
 
 &.offset-3 {
@@ -242,7 +242,7 @@ const ColWrapper = styled.div`
       margin-left: 8.333333%;
     }
     &.offset-xs-2 {
-      margin-left: 16.666667%;
+      margin: auto;
     }
     &.offset-xs-3 {
       margin-left: 25%;
@@ -401,7 +401,7 @@ const ColWrapper = styled.div`
       margin-left: 8.333333%;
     }
     &.offset-sm-2 {
-      margin-left: 16.666667%;
+      margin: auto;
     }
     &.offset-sm-3 {
       margin-left: 25%;
@@ -560,7 +560,7 @@ const ColWrapper = styled.div`
       margin-left: 8.333333%;
     }
     &.offset-md-2 {
-      margin-left: 16.666667%;
+      margin: auto;
     }
     &.offset-md-3 {
       margin-left: 25%;
@@ -718,7 +718,7 @@ const ColWrapper = styled.div`
       margin-left: 8.333333%;
     }
     &.offset-lg-2 {
-      margin-left: 16.666667%;
+      margin: auto;
     }
     &.offset-lg-3 {
       margin-left: 25%;
@@ -877,7 +877,7 @@ const ColWrapper = styled.div`
       margin-left: 8.333333%;
     }
     &.offset-xl-2 {
-      margin-left: 16.666667%;
+      margin: auto;
     }
     &.offset-xl-3 {
       margin-left: 25%;
